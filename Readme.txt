@@ -43,6 +43,6 @@ Delete Command:-
 9) for checking the which value is less :-
                 Student.objects.filter(id__lte = 15)
 
-8) For Getting the data in Ordered Way
+10) For Getting the data in Ordered Way
             from home.models import Student  
             Student.objects.all().order_by('mobile')      
